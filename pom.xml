@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiangouo.mc</groupId>
+    <artifactId>TestGame</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>xuan</id>
+            <url>http://xuan.nctu.me:8081/repository/Maven/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>patched</groupId>
+            <artifactId>1.15</artifactId>
+            <version>R1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hypernite.mc</groupId>
+            <artifactId>minigame-api</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hypernite.mc</groupId>
+            <artifactId>core-api</artifactId>
+            <version>7.5.9</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
